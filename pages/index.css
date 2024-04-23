@@ -35,7 +35,7 @@ html, body{
   justify-content: space-between;
 }
 
-.nav__list{
+.nav__links{
   display: flex;
   list-style-type: none;
   gap: 20px;
