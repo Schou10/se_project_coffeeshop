@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Serif:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap" rel="stylesheet">
-  <title>Tripple Peaks Coffee Shop</title>
+  <title>Triple Peaks Coffee Shop</title>
 </head>
 <body>
   <div class="page">
@@ -30,7 +30,7 @@
             <a class="nav__link" href="#reservation">Book a table</a>
           </li>
           <li >
-            <a class="nav__link" href="#about">Contacts</a>
+            <a class="nav__link" href="#contact">Contacts</a>
           </li>
         </ul>
       </nav>
@@ -60,11 +60,40 @@
 
         </div>
       </section>
-      <section id="reservation" class="reservation"></section>
+      <section id="reservation" class="reservation">
+        <h2 class="reservation__title">Book a Table</h2>
+        <form class="reservation__form">
+          <fieldset class="form__fieldset">
+            <label class="form__label">Name *</label>
+            <input class="form__input" type="text" placeholder="Name Surname" required>
+          </fieldset>
+          <fieldset class="form__fieldset">
+            <label class="form__label">Number of guest *</label>
+            <input class="form__input" type="number" min="1" max="8" placeholder="1-8" required>
+          </fieldset>
+          <fieldset class="form__fieldset">
+            <label class="form__label">Date & Time *</label>
+            <input class="form__input" type="datetime-local" required>
+          </fieldset>
+          <fieldset class="form__fieldset">
+            <label class="form__label">Your email *</label>
+            <input class="form__input" type="email" placeholder="email@email.com" required>
+          </fieldset>
+          <fieldset class="form__fieldset">
+            <button class="form__button" type="submit">Book a table</button>
+          </fieldset>
+          <fieldset class="form__fieldset">
+            <label class="form__label">
+              <input class="form__checkbox" type="checkbox" required>
+               I agree with the terms of use
+            </label>
+          </fieldset>
+        </form>
+      </section>
       <section id="menu" class="menu"></section>
       <section id="about" class="about"></section>
     </main>
-    <footer class="footer"></footer>
+    <footer id="contact" class="footer"></footer>
   </div>
 </body>
 </html>
