@@ -192,8 +192,12 @@ html, body{
 }
 
 .reservation__form{
-  display: block;
   margin: 0 0 120px;
+}
+
+.form{
+  display: block;
+  margin-bottom: 32px;
 }
 
 .reservation__form-fieldset{
@@ -227,7 +231,7 @@ html, body{
   max-width: 385px;
   width: 385px;
   height: 60px;
-  margin-bottom: 32px;
+
 }
 
 .reservation__form-input[type="datetime-local"]{
