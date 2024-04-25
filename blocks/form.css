@@ -1,0 +1,12 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.form__button{
+  transition: opacity .2s ease-in-out;
+}
+.form__button:hover{
+  opacity: .7;
+}
