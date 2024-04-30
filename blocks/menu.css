@@ -1,4 +1,4 @@
-.menu{
+.menu {
   padding: 100px 0;
   background-color: #fff;
   background-image: url(../images/background_menu.svg);
@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-.menu__title{
+.menu__title {
   text-align: center;
   margin: 0 0 24px;
   max-width: 780px;
@@ -20,18 +20,18 @@
   line-height: 52px;
 }
 
-.menu__subtitle{
+.menu__subtitle {
   text-align: center;
   margin: 0 0 100px;
   max-width: 780px;
   text-align: center;
   text-wrap: wrap;
-  font-family: "Noto Serif", 'Times New Roman', serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
 }
 
-.menu__cards{
+.menu__cards {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
