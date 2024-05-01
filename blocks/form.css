@@ -40,6 +40,7 @@
   width: 385px;
   height: 60px;
   box-sizing: border-box;
+  margin: 0 0 32px;
 }
 
 .form__input::placeholder {
@@ -48,6 +49,10 @@
 
 .form__input[type="datetime-local"] {
   color: #000;
+}
+
+.form__input:nth-last-child(1) {
+  margin: 0;
 }
 
 .form__button {
