@@ -17,6 +17,7 @@
   height: 39px;
   width: 105px;
 }
+
 .nav__link {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -27,6 +28,7 @@
   text-decoration: none;
   transition: color 0.2s ease-in-out;
 }
+
 .nav__link:hover {
   color: #2f80ed;
 }
