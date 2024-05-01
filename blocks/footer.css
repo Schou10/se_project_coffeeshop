@@ -51,6 +51,7 @@
   color: #fff;
   transition: color 0.2s ease-in-out;
 }
+
 .footer__social-link:hover {
   color: #c1c1c1;
 }
